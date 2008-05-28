@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/1.0">
+	<id>Bookr</id>
+	<filename>Bookr</filename>
+	<name>Bookr</name>
+	<version>Alpha 1.0</version>
+	<description>Deal with Books Data From Douban.com</description>
+	<copyright>Copyright 2008 Seektan</copyright>
+	<initialWindow>
+		<content>index.html</content>
+		<title>Bookr Alpha 1.0</title>
+		<visible>true</visible>
+		<width>500</width>
+		<height>450</height>
+	</initialWindow>
+	<icon>
+		<image32x32>icons/book.png</image32x32>
+	</icon>
+</application>

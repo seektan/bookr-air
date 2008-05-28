@@ -1,0 +1,30 @@
+/*
+Author Seektan 2008-4-20
+*/
+
+body{font:12px/1.6em arial;margin:25px;background: #333;color:#bbb;}
+h1{font:bold 14px arial;margin:11px 0 4px;color:#cc3;}
+h2{font:bold 12px arial;margin:11px 0 4px;color:#cc3;padding-bottom:4px;border-bottom: 1px dashed #cc3;}
+dl,dt,dd,ul,li{margin:0;padding:0;}
+ul{list-style:none;}
+a:link{color:#0c3;padding-right:10px;background:url(../img/ai.gif) no-repeat right;}
+a:hover{padding-right:10px;background:#9c3 url(../img/aio.gif) no-repeat right;color:#fff;}
+a.in{padding:0;background:url(none);}
+a.in:hover{padding:0;background:url(none);}
+a.in:visited{padding:0;background:url(none);}
+a:visited{color:#0c3;padding-right:10px;background:url(../img/ai.gif) no-repeat right;}
+.bk{position: relative; width:390px;z-index:1;}
+.bkd{padding:11px 5px;}
+.tab{position: absolute; width:285px;padding:8px;right:0;top:11px;background: #fff;border: 1px solid #cc3;display: none;z-index:111;text-align:justify;
+text-justify:distribute-all-lines;text-justify:inter-ideograph;color:#666;}
+.cl{float: right;background: #f8f8f8;width:28px;cursor:pointer;text-align: center;margin:0 0 0 11px;padding:1px 2px 0;border: 1px solid #ccc;color:#cc3;}
+.bkd dt{float: left;width:85px;height: 125px;}
+.bkd dt img{padding:2px;width:70px;border:1px solid #ccc;}
+.brs ul{width:400px;}
+.brs ul li{width:140px;float: left;}
+.brs .rs{float: right;width:255px;padding-right:5px;text-align:justify;text-justify:distribute-all-lines;text-justify:inter-ideograph;}
+.brs .rs span{display:block;font-weight: bold;}
+#output{position: relative; width:400px;}
+#sums{position: absolute;z-index:9999;background: #fff;border: 1px solid #cc3;padding:0 8px;color:#666;display: none; }
+#sums ul{border-bottom:1px dashed #cc3;padding:5px 0;}
+#sums .cl{position: relative;top:-21px;right:-27px;border-bottom:0;padding:1px 6px 0; }

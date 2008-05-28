@@ -1,0 +1,3 @@
+adt -certificate -cn tt 1024-RSA bookr.pfx tt
+
+adt -package -storetype pkcs12 -keystore bookr.pfx -tsa none bookr.air bookr.xml index.html img icons js css

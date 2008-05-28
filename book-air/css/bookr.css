@@ -1,0 +1,47 @@
+/*
+Author Seektan | http://hi.baidu.com/webworker/ @2008-4-25
+*/
+
+body{font:12px/1.8em arial;margin:40px 25px 25px;background: #333;color:#bbb;}
+h1{font:bold 15px arial;margin:11px 0 12px;color:#cc3;}
+h2{font:bold 14px arial;margin:25px 0 4px;padding-bottom:9px;color:#cc3;border-bottom: 1px dashed #cc3;clear:both;text-align: center;}
+h2 span{font:12px arial;}
+dl,dt,dd,ul,li,form,input{margin:0;padding:0;}
+ul{list-style:none;}
+img:hover{border: 1px solid #fff;}
+p{margin:5px 0;text-indent: 2em;}
+a:link{color:#0c3;padding-right:10px;background:url(../img/ai.gif) no-repeat right;text-decoration: none; }
+a:hover{padding-right:10px;background:#9c3 url(../img/aio.gif) no-repeat right;color:#fff;}
+a.in{padding:0;background:url(none);text-decoration: none; }
+a.in:hover{padding:0;background:url(none);}
+a.in:visited{padding:0;background:url(none);text-decoration: none; }
+a:visited{color:#0c3;padding-right:10px;background:url(../img/ai.gif) no-repeat right;text-decoration: none; }
+.color{color:#cc3;padding:0 2px;}
+.err{width: 250px;padding:0 6px;text-indent: 0;border: 1px solid #cc3;background: #ffffd4;color:#666;}
+.clos{padding-left:13px;color:#000;cursor:pointer;}
+
+#tips{position: absolute;top:5px; }
+#tips dt{cursor:pointer;}
+#tips dd{display: none;}
+
+#bs{width: 145px;border: 1px solid #cc3;padding:3px 2px 1px;color:#333;font-size:1em;}
+
+#book,
+#review{width: 435px;}
+
+.bk{}
+.bkd{width: 300px;margin:20px auto 15px;}
+.bkd dt{float: left;width:85px;height: 100px;}
+.bkd dt img{padding:2px;width:70px;border:1px solid #666;}
+
+.brs{border-bottom: 1px dashed #ccc;}
+.brs ul{padding:2px;padding-bottom:15px;zoom:1;overflow:hidden;}
+.brs ul li{}
+.brs ul li span{padding-left:45px;}
+.brs ul li.rs{text-align:justify;text-justify:distribute-all-lines;text-justify:inter-ideograph;}
+.brs ul li.rs img{float: right;margin-left:4px;padding:2px;width:60px;border:1px solid #666;}
+.brs ul li.rt a{margin-top:8px;font: bold 13px arial;text-align: left;display: block;}
+
+.pbs{padding-top:25px;zoom:1;overflow:hidden;}
+.pbs li{float: left;width: 145px;height: 160px;text-align: center;line-height: 1.2em;}
+.pbs li img{padding:3px;margin:0 auto 5px;height:90px;border:1px solid #666;display: block;}

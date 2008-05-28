@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Bookr Alpha 1.0</title>
+<meta name="Generator" content="EditPlus" />
+<meta name="Author" content="Seektan" />
+<meta name="Keywords" content="Bookr book review douban" />
+<meta name="Description" content="Bookr : an air application deal book data from douban" />
+<link rel="stylesheet" rev="stylesheet" href="css/bookr.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bookr.js"></script>
+<body>
+
+<h1>Bookr | 豆瓣图书信息以及评论</h1>
+
+<form method="post" action="#" id="fm">
+	<input type="text" id="bs" value="请输入关键字并回车"/><br />
+	<input type="radio" name="b" class="bk" checked="checked" />书籍搜索 
+	<input type="radio" name="b" class="ps" />用户搜索
+</form>
+
+<div id="book"></div>
+<div id="review"></div>
+
+<dl id="tips">
+	<dt>关于</dt>
+	<dd><ul class="err">
+		<li>1．输入的字符必须是完整的书名或豆瓣用户名</li>
+		<li>2．同名书只取一本，有些豆瓣用户搜不到</li>
+		<li>3．数据来自豆瓣的API，且只搜索前15条</li>
+		<li>4．交流反馈请去我的 <a href="http://hi.baidu.com/webworker/" target="_blank">Blog | 制作手记</a><span class="clos">关闭</span></li>
+	</ul></dd>
+</dl>
+
+</body>
+</html>
