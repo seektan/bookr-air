@@ -1,0 +1,67 @@
+/*
+by Jiejun Tan | Agenda
+
+1) General selectors
+2) Structure
+3) Elements style
+*/
+
+/* 1)--- General selectors f60 --- */
+body{ margin:0 auto; text-align:center; font:12px/150% arial,helvetica,clean,sans-serif;background: #444;color:#ccc;}
+td{ vertical-align:top;font:12px/150% arial,helvetica,clean,sans-serif;}
+select, input, textarea{ font-size:12px;}
+h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form{ margin:0;padding:0;}
+table{ border-collapse: collapse; border-spacing:0;  border:0;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;font-weight:normal;}
+p{margin:5px 0 13px;text-align:justify;text-justify:distribute-all-lines;text-justify:inter-ideograph;}
+ul,li{ list-style:none;}
+img{border:0;}
+a:link{ color:#f60;text-decoration:none;}
+a:visited{ color:#999;text-decoration:none;}
+a:hover{ color:#fff;background: #f60;text-decoration:none;}
+a:active{ color:#fff; text-decoration:none;}
+
+/* 2)--- Structure --- */
+#wp{ margin:0 auto; width:75%;min-width:600px; text-align:left;}
+#nav{width:100%;border-bottom: 1px solid #f60;zoom:1;overflow:hidden;}
+#ft{ clear:both; text-align:center;padding:15px 0 25px;border-top: 1px solid #ccc;}
+
+/* 3)--- Elements style --- */
+#logo{margin:45px 0 0 25px;}
+#nav li{ float:right;}
+#nav li a{float: left;margin:0 0 0 8px;padding:1px 6px 0;border-top: 2px solid #f60;}
+#nav li a.on{color:#fff;background: #f60;}
+#photos{padding:10px;background: #666;zoom:1;overflow:hidden;}
+#photos_l{text-align: center;padding-top:16px;}
+.keyw{text-align: center;padding:8px 4px 0;border-bottom: 1px solid #ccc;}
+#go,.keyw input{padding:3px 6px 2px;font:bold 14px arial;background: #f60;color: #fff;}
+.keyw input{margin-bottom:-1px;border:0;color: #f60;background: #fff;}
+#go{cursor:pointer;hide-focus: expression(this.hideFocus=true);outline: none;}
+
+#books{padding:20px 10px;background: #fff;zoom:1;overflow:hidden;color: #444;}
+h2,h3{font:bold 14px arial;text-align: center;padding:20px 0 6px;}
+h2 span{border-bottom: 1px dashed #ccc;}
+h3{font-size:12px;text-align: left;border-top: 1px solid #ccc;padding:6px 8px 3px;background: #f3f3f3;margin:10px 0 0;zoom:1;overflow:hidden;}
+#books .keyw{border-bottom: 1px solid #444;}
+#books .keyw input{margin-bottom:-1px;border:0;color: #f60;background: #444;}
+#book_l,#review{width:94%;margin:0 auto;text-align: center;padding:13px 0 10px;}
+.bk{zoom:1;overflow:hidden;background: #f3f3f3;text-align: left;margin-top:10px;}
+.bkd{float: left;width:40%;background: #f8f8f8;padding:14px 6px 6px;}
+.bkd dt{text-align: center;padding:0 0 5px;border-bottom: 1px solid #ccc;}
+.bkd dt img{padding:2px;border: 1px solid #ccc;}
+.bkd dd{padding:3px 0 1px;border-bottom: 1px solid #ccc;}
+#zy0{float: right;}
+#zy0 p{text-indent: 2em;padding:15px;}
+.brs{text-align: left;}
+.brs h3 .rh{float: left;}
+.brs h3 .rw{float: right;font-weight:normal;}
+.brs p{text-indent: 2em;padding:10px 8px 5px;margin:0;background: #f8f8f8;}
+.brs ul span{padding:0 0 0 45px;}
+
+/* photos */
+.p_list{padding:20px 0;}
+.p_list li{float: left;width:50%;height:290px;text-align: center;overflow:hidden;}
+.p_list li .img{height:250px;width:250px;margin:0 auto;text-align: center;background: #f3f3f3;}
+.p_list li .img img{vertical-align: middle;padding:2px;border: 1px solid #ccc;margin-top:2px;}
+.p_list li a:hover img{border: 1px solid #f60;background: #f60;}
+.p_list li h3{padding:2px 0;width:250px;text-align: center;background: #f3f3f3;color: #f60;font-weight:bold;margin:0 auto;}
