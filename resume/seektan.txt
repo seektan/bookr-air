@@ -1,0 +1,64 @@
+
+中文
+------------------------------------------
+网络前端开发
+
+涉猎范围--网站标准化建设，结构/表现/行为的相互独立，语义化html标签，跨浏览器兼容开发，信息架构、简单SEO、可用性和亲和性等，技能熟练排序：(x)html/css/Dom+ javascript/jQuery/Ajax/Flash as/Xml/Xslt。
+
+ID：SeekTan
+邮箱: seektan@gmail.com
+MSN : seektan@hotmail.com
+性别: 男
+学历: 本科
+blog: http://hi.baidu.com/webworker
+
+能力技能
+熟练手写(X)html、Css代码,DOM结合Javascript应用，熟悉W3C标准、信息构架、跨浏览器兼容、可用性、亲和性、简单SEO、Jquery/Mootool等js库
+使用软件：Editplus、Photoshop、Dreamweaver、Flash
+涉及知识：Ajax/as/xml/Xslt/c/php/mysql
+
+工作经历
+1. 2007.2- 安捷达咨询顾问公司北京分公司(AGENDA Beijing)，Web Developer
+2. 2005.8-2007.2 计算机世界在线服务部，Coder
+
+教育背景
+中国农业大学 人文与发展学院  管理学学士 2000－2004
+
+自我评价
+乐于接触新技术和问题，有责任心，性格偏内向、随和，喜欢运动自行车、摄影、游泳、读书、电影、音乐。
+
+
+
+english
+------------------------------------------
+Web-based Front End Development
+
+ID:SeekTan
+Sex:Male
+Email:seektan@yahoo.com
+MSN: seektan@hotmail.com
+blog: http://hi.baidu.com/webworker
+
+Skills
+* CSS, (x)HTML, Javascript--with handcraft
+* Familiar: Web standard, W3C, Cross-browser Development, Accessibliity, SEO
+* Few of: Flash ActionScript,AJAX,Xml,Xsl
+* Tools : Editplus, Adobe Photoshop/Dreamweaver/Flash
+
+Employment Experience
+* AGENDA Beijing,2007.2-now,Web Developer 
+* Online Service Dep.,China Computerworld Publish & Service Co.,2005.8-2007.2,Coder
+
+
+Education
+China agricultural university,College of humanity and development 
+* Bachelor of Adminstration
+* Computer Science as Elective
+* 2000 - 2004
+
+Others
+self-learning, reliable
+Interest:Internet,Music,Movie,Reading,Photography; Badminton,Swimming,Bicycle
+
+Sincerely yours
+JieJun Tan 
