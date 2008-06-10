@@ -1,7 +1,8 @@
 
-中文
+SeekTan的简历
 ------------------------------------------
 网络前端开发
+
 
 涉猎范围--网站标准化建设，结构/表现/行为的相互独立，语义化html标签，跨浏览器兼容开发，信息架构、简单SEO、可用性和亲和性等，技能熟练排序：(x)html/css/Dom+ javascript/jQuery/Ajax/Flash as/Xml/Xslt。
 
@@ -29,7 +30,6 @@ blog: http://hi.baidu.com/webworker
 
 
 
-english
 ------------------------------------------
 Web-based Front End Development
 
