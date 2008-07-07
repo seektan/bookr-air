@@ -34,11 +34,11 @@ function load() {
 		map.addControl(new GLargeMapControl());
 		map.addControl(new GMapTypeControl()); 
 
-	var cts = {};
+	var cts = {},ctl;
 	GDownloadUrl("metal.txt", function(data, responseCode) {
 		cts = eval("(" + data + ")");
+		ctl = cts["country"].length;
 	});
-	var ctl = cts["country"].length;
 
 	document.getElementById("gbt").onclick = function(){ alert(0);
 	  var ctn = document.getElementById("loc").value;
