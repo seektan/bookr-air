@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>29th Olympic Metal Search</title>
+<style type="text/css" media="screen">
+<!--
+html,body{height:100%;margin:0;font:12px/1.6em arial;color: #555;}
+#over{position: absolute; top:7px;left:75px;background: #fff;z-index:999;padding:10px;border: 1px solid #ccc;}
+#map{width:100%;height:100%;margin:auto;}
+p{margin:7px 0;}
+h1,h2{margin:5px 0px 15px;font: bold 16px/1.6em verdana;text-transform:capitalize; color: #f60;border-bottom: 1px solid #ccc;}
+h2 span{display: block;padding:0 0 3px 1px;font: 12px arial sans-serif;color: #444;}
+.cter{width:230px;}
+.ci{text-align: center;}
+-->
+</style>
+
+<script type="text/javascript" src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAACZoLVN79WT2mXp8M7Dsi-hQh8ll_wAF7_7TyZBPI6IOnT0xJShSOnC5GADrX5kC03y88AX4YsapDUw"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+window.onload  =function (){	load();	/*setupMap()*/	};
+window.onunload=function (){	GUnload();	};
+
+function load() {
+  if (GBrowserIsCompatible()) {
+	var el   =  document.getElementById("map");
+	var opts =  {mapTypes:[G_PHYSICAL_MAP]};
+	var map  =  new GMap2(el,opts);
+	var point=  new GLatLng(39.99665163437272, 116.39285087585449);
+		map.setCenter(point, 6);
+		map.addControl(new GLargeMapControl());
+		map.addControl(new GMapTypeControl()); 
+
+	var cts = {};
+	GDownloadUrl("metal.txt", function(data, responseCode) {
+		cts = eval("(" + data + ")");
+	});
+	var ctl = cts["country"].length;
+
+	document.getElementById("gbt").onclick = function(){ 
+	  var ctn = document.getElementById("loc").value;
+		  ctn = ctn.toLowerCase();
+	  for (var i=0;i<ctl;i++ ) {
+		if (ctn==cts["country"][i].name.toLowerCase()){
+		  var point = cts["country"][i].Glatlng,
+			  gm = cts["country"][i].gold,
+			  sm = cts["country"][i].silver,
+			  bm = cts["country"][i].bronze,
+		      pgm=3*gm,psm=3*sm,pbm=3*bm,sum=parseInt(gm)+parseInt(sm)+parseInt(bm);
+
+		  var lld = cts["country"][i].Glatlng.split(",");
+		  var pot = new GLatLng(lld[0],lld[1]);
+			  map.setCenter(pot, 4);
+		  var marker = new GMarker(pot);
+		      map.addOverlay(marker);
+		  var chart = '<div class="cter"><h2>' + ctn + '<span>'+ sum + ' metals</span></h2><div class="ci"><img src="http://chart.apis.google.com/chart?cht=bvs&amp;chs=212x180&amp;chd=t:' + pgm +',' + psm + ',' + pbm +'&amp;chco=e2c43e|d8d7d3|bca08b&amp;chbh=40,38&amp;chl=Gold|Silver|Bronze&amp;chxt=x,x&amp;chxl=1:|' + gm + '|' + sm + '|' + bm + '" /></div></div>';
+		      marker.openInfoWindowHtml(chart);
+		}
+	  }
+	} 
+
+
+  }
+}
+//]]>
+</script> 
+
+</head>
+<body>
+	<div id="map"></div>
+	<div id="over">
+		<h1>Metal Search</h1>
+		<input type="text" size="20" id="loc" name="address" value="Country name" />
+		<input type="submit" id="gbt" value="Go!" />
+	</div>
+</body>
+</html>
