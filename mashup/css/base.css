@@ -62,8 +62,7 @@ h3{font-size:12px;text-align: left;border-top: 1px solid #ccc;padding:6px 8px 3p
 /* photos */
 .p_list{padding:20px 0;}
 .p_list li{float: left;width:46%;height:290px;text-align: center;overflow:hidden;}
-.p_list li .img{height:250px;width:250px;margin:0 auto;text-align: center;background: #f3f3f3;}
-.p_list li .img *{vertical-align: middle;}
-.p_list li .img img{padding:2px;border: 1px solid #ccc;margin-top:2px;}
+.p_list li .img{height:250px;line-height:250px;width:250px;margin:0 auto;text-align: center;background: #f3f3f3;}
+.p_list li .img img{padding:2px;border: 1px solid #ccc;margin-top:2px;vertical-align:middle;}
 .p_list li a:hover img{border: 1px solid #f60;background: #f60;}
 .p_list li h3{padding:2px 0;width:250px;text-align: center;background: #f3f3f3;color: #f60;font-weight:bold;margin:0 auto;}
