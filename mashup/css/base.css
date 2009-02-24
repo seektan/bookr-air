@@ -44,8 +44,7 @@ h2,h3{font:bold 14px arial;text-align: center;padding:20px 0 6px;}
 h2{border-bottom: 1px solid #999;}
 h2 span{border-bottom: 1px dashed #ccc;}
 h3{font-size:12px;text-align: left;border-top: 1px solid #ccc;padding:6px 8px 3px;background: #f3f3f3;margin:0;zoom:1;overflow:hidden;}
-#books .keyw{border-bottom: 1px solid #444;}
-#books .keyw input{margin-bottom:-1px;border:0;color: #f60;background: #444;}
+#books .keyw input{border:0;color: #f60;background: #444;}
 #book_l,#review{width:94%;margin:0 auto;text-align: center;padding:13px 0 10px;}
 .bk{zoom:1;overflow:hidden;background: #f3f3f3;text-align: left;padding:10px 8px 10px;}
 .bkd{float: left;width:27%;background: #f8f8f8;padding:14px 0 6px;}
